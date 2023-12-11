@@ -24,12 +24,12 @@ const AboutCart = () => {
     <div class={styles.wrapper}>
       <header class={styles.header}>
         <div class={styles.back}>
-          <Link to="/home">
+          <Link to="/">
             <div class={styles.arrow}>
               <img src={arrowSvg} alt="back" />
             </div>
           </Link>
-          <Link to="/home">
+          <Link to="/">
             <div class={styles.text}>go back</div>
           </Link>
         </div>
