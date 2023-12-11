@@ -61,7 +61,7 @@ const Home = () => {
   return (
     <main className="page">
       <div className="page__doodle doodle">
-        <Link to="/home" className="doodle__container">
+        <Link to="/" className="doodle__container">
           <img src={doodleJpg} alt="doodle" />
         </Link>
       </div>
